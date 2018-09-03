@@ -707,6 +707,7 @@ sub clinical_significance {
   return [ "Clinical significance $info_link" , $cs_content ];
 }
 
+# Display hgvs
 sub hgvs {
   my $self      = shift;
   my $object    = $self->object;
